@@ -80,7 +80,7 @@ Ftrl
 
 -output
 
-•Prediction accuracy from 10 fold cross validation with each number of epochs(1~100 or 1~200)
+•Prediction accuracy from 10 fold cross validation with each number of epochs(1-100 or 1-200)
 
 •graph of prediction accuracies and epochs
 
@@ -114,7 +114,7 @@ Ftrl
 
 -output
 
-•Prediction accuracy from 10 fold cross validation with each number of epochs(1~100 or 1~200)
+•Prediction accuracy from 10 fold cross validation with each number of epochs(1-50)
 
 •graph of prediction accuracies and epochs
 
