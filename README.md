@@ -1,7 +1,6 @@
 # Programs and data in manuscript titled "Narrow funnel-like interaction energy distribution is an indicator of specific protein interaction partner"
 
-This repository contains programs and data in manuscript titled "Narrow funnel-like interaction energy distribution is an indicator of specific 
-4 protein interaction partner"
+This repository contains programs and data in manuscript titled "Narrow funnel-like interaction energy distribution is an indicator of specific protein interaction partner"
 
 These programs use deep learning to differentiate interaction energy distribution of functionally interacting protein pair and that of non-interacting protein pair.
 
