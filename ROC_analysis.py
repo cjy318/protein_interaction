@@ -3,7 +3,7 @@ from keras import models
 from keras import layers
 from tensorflow.keras.utils import to_categorical
 
-tot_data=np.load('data1.pkl', allow_pickle=True)
+tot_data=np.load('rkin_data.pkl', allow_pickle=True)
 np.random.shuffle(tot_data)
 #random shuffle for k-fold validation
 data=tot_data[:,1:]
@@ -110,7 +110,7 @@ False_positive_rate1=False_positive_prediction1/(sum(label))
 
 #ubi
 
-tot_data=np.load('posi_data.pkl', allow_pickle=True)
+tot_data=np.load('PPI_data.pkl', allow_pickle=True)
 np.random.shuffle(tot_data)
 #random shuffle for k-fold validation
 data=tot_data[:,1:]
