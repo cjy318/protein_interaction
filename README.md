@@ -74,11 +74,17 @@ Ftrl
 -Example
 
 ```
-./PPI_model2_adamax.py
+./PPI_model2_Adamax.py
 %general protein interaction prediction using 1024-64-2 layer structure and Adamax optimizer
 ```
 
-For test data from HDOCKlite, run with
+-output
+
+•Prediction accuracy from 10 fold cross validation with each number of epochs(1~100 or 1~200)
+
+•graph of prediction accuracies and epochs
+
+》For test data from HDOCKlite, run with
 
 ```
 ./<type of protein interaction>_<optimizer>.py
@@ -106,6 +112,11 @@ Nadam
 
 Ftrl
 
+-output
+
+•Prediction accuracy from 10 fold cross validation with each number of epochs(1~100 or 1~200)
+
+•graph of prediction accuracies and epochs
 
 ●ROC test
 
