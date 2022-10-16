@@ -120,7 +120,7 @@ labell=label.tolist()
 
 k=10
 num_validation_sample=len(data)//k
-num_epochs=56
+num_epochs=109
 
 
 True_positive_prediction2=np.zeros(1000)
@@ -136,7 +136,7 @@ for fold in range(k):
     model=models.Sequential()
     model=models.Sequential()
     model.add(layers.Dense(1024, activation='relu', input_shape=(1000*2,)))
-    model.add(layers.Dense(128,activation='relu'))
+    model.add(layers.Dense(64,activation='relu'))
     model.add(layers.Dense(2, activation='softmax'))
 
     model.compile(optimizer='Adamax',loss='binary_crossentropy',metrics=['accuracy'])
