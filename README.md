@@ -28,7 +28,7 @@ cd protein_interaction
 Run with
 
 ```
-./<type of protein interaction>_<layer structure>_<optimizer>.py
+python <type of protein interaction>_<layer structure>_<optimizer>.py
 ```
 
 -type of interaction
